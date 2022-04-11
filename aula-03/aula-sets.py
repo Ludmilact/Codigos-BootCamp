@@ -13,7 +13,7 @@ Elementos únicos, exclusivos, sem repetiçao.
 from math import factorial
 
 
-conjunto_a = {1,2,3,4,5,6,7,}
+conjunto_a = {1,2,3,4,5,6,7}
 print(f"Conjunto A: {conjunto_a}")
 
 #Podemos usar a funçao set() para transformar outros objetos em um set
@@ -44,7 +44,3 @@ print(f"Resposta 5: {aluna.symmetric_difference(letras_aleatorias)}")
 print(f"Resposta 6: {'a'in aluna}")
 
 print(f"Resposta 7: {letras_aleatorias.issubset(aluna)}")
-
-
-
-
