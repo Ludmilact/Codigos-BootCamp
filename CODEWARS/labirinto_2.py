@@ -1,7 +1,7 @@
 """
 How Bootcamps - Stone - /código[s]
 Data: 07/04/2022
-Autor: Ângela Maria Felini, Flavia Fernandes dos Santos, Jaqueline Rocha Otero, Ludmila Custodio Timoteo, William Machado,
+Autores: Ângela Maria Felini, Flavia Fernandes dos Santos, Jaqueline Rocha Otero, Ludmila Custodio Timoteo, William Machado.
 Enunciado:
 Implementar um sistema em Python que efetue o comportamento de um robô tentando encontrar
 a saída de um labirinto.
@@ -93,7 +93,6 @@ def verifica_movimento(posicao: tuple, direcao: list) -> bool:
 
 def main():
 
-    #Guardar a posição percorrida pelo robo
     posicao_percorrida = [] 
     
     possiveis_direcoes = [DIREITA, BAIXO, ESQUERDA, CIMA]
@@ -104,7 +103,6 @@ def main():
     print("BEM VINDO AO LABIRINTO CODE WARS!!\n\nVocê deverá escolher uma posição no labirinto e o seu robozinho irá procurar pela saída!\nEscolha dois números, sendo o primeiro entre 0 e 9 e o segundo entre 0 e 19.\nEstas coordenadas devem estar separadas por uma vírgula. Exemplo: 8, 15\nSe a posição que você escolher for uma parede do labirinto, será solicitado que você digite outro par de números.\n\nBOA SORTE!")
     print("\n***********************************************************************************************\n")
 
-    # recebendo a posição inicial do robozinho
     tamanho_labirinto_linhas = len(LABIRINTO)
     tamanho_labirinto_colunas = len(LABIRINTO[0])
     
