@@ -6,7 +6,7 @@ class Funcionario:
     aumento_percentual: float = 0.10
 
     # método construtor
-    def __init__(self, nome: str, sobrenome: str, salario_inicial: int):
+    def __init__(self, nome: str, sobrenome: str, salario_inicial: float = 1000):
         self.nome: str = nome 
         self.sobrenome: str = sobrenome
         self.__salario_inicial = salario_inicial
