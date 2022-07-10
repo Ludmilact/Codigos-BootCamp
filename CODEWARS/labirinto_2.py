@@ -76,7 +76,7 @@ def verifica_movimento(posicao: tuple, direcao: list) -> bool:
 
     Returns:
         bool: False se encontrar parede ou caminho já percorrido
-              True se caminho está livre ou encontrou a saída
+            True se caminho está livre ou encontrou a saída
     """
     
     possivel_caminho = LABIRINTO[posicao[0] + direcao[0]][posicao[1] + direcao[1]]
@@ -153,7 +153,7 @@ def main():
 
     print("*********************")
     print("\n****   PARABÉNS  ****\n")
-    print("\n*** ACHOU A SAIDA ***\n")
+    print("\n*** ACHOU A SAÍDA ***\n")
     print("*********************")
 
 if __name__ == "__main__":
